@@ -1,0 +1,26 @@
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
+footer {
+  display: block;
+}
+.cabout {
+  max-width: 850px;
+}
+.featurette-divider {
+  margin: 5rem 0;
+}
+.mb-3,
+.c {
+  margin-top: 15px;
+}
+.pass {
+  margin-top: 13px;
+}
+.op {
+  font-weight: lighter;
+}
