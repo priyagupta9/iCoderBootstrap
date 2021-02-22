@@ -95,109 +95,150 @@
       </div>
     </nav>
 
-    <!-- login-modal -->
+ <!-- login-modal -->
 
-
-<!-- Modal -->
-<div class="modal fade" 
-id="loginModal"
- tabindex="-1" 
- aria-labelledby="loginModalLabel" 
- aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="loginModalLabel">Login to iCoder</h5>
-        <button type="button"
-         class="btn-close" 
-         data-bs-dismiss="modal"
-          aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <!-- login-form -->
-        <div class="mb-3 row">
-          <label for="staticEmail" class="col-sm-2 col-form-label"
-            >Email</label
-          >
-          <div class="col-sm-10">
-            <input
-            type="text"
-            class="form-control"
-            id="staticEmail"
-            placeholder="email@example.com"
-            />
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Login to iCoder</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- login-form -->
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label"
+                >Email</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="staticEmail"
+                  placeholder="email@example.com"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label"
+                >Password</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Login</button>
           </div>
         </div>
-        <div class="mb-3 row">
-          <label for="inputPassword" class="col-sm-2 col-form-label"
-            >Password</label
-          >
-          <div class="col-sm-10">
-            <input
-              type="password"
-              class="form-control"
-              id="inputPassword"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="cinputPassword" class="col-sm-2 col-form-label"
-          >Confirm Password</label
-        >
-        <div class="col-sm-10 pass">
-          <input
-            type="password"
-            class="form-control"
-            id="cinputPassword"
-          />
-        </div>
-      </div>
-
-
-      <div class="modal-footer">
-        <button type="button"
-         class="btn btn-secondary"
-          data-bs-dismiss="modal">Close</button>
-        <button type="button"
-         class="btn btn-primary">Login</button>
       </div>
     </div>
-  </div>
-</div>
 
     <!-- Signup -modal -->
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="signupModal"
+      tabindex="-1"
+      aria-labelledby="signupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupModalLabel">
+              Get an iCoder Account
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- signup form -->
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label"
+                >Email</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="staticEmail"
+                  placeholder="email@example.com"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label"
+                >Password</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword"
+                />
+              </div>
+            </div>
 
-<!-- Modal -->
-<div class="modal fade"
- id="signupModal"
-  tabindex="-1"
-   aria-labelledby="signupModalLabel"
-    aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="signupModalLabel"> 
-          Get an iCoder Account</h5>
-        <button type="button"
-         class="btn-close"
-         data-bs-dismiss="modal" 
-         aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" 
-        class="btn btn-secondary"
-         data-bs-dismiss="modal">Close</button>
-        <button type="button" 
-        class="btn btn-primary">Create Account</button>
+            <div class="mb-3 row">
+              <label for="cinputPassword" class="col-sm-2 col-form-label"
+                >Confirm Password</label
+              >
+              <div class="col-sm-10 pass">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="cinputPassword"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">
+              Create Account
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+
     
 
     <!-- corousel -->
